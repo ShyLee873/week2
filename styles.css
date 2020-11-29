@@ -2,11 +2,12 @@
 /*CSS Document*/
 
 ;body{
-  font-family: 'Quicksand', sans-serif;
-  background-color: #D3D3D3;
-  margin: 0px;
-  padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #D3D3D3;
+    margin: 0px;
+    padding: 0px;
 }
+
 ul{
     list-style: none;
     margin: 0;
@@ -22,6 +23,7 @@ section{
     background-image: url(https://coronaservices.com/wp-content/uploads/2018/10/background-section.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
 }
 
 nav{
@@ -31,7 +33,7 @@ nav{
 }
 
 
-li {
+li{
     float: right;
     display: block;
     columns: rgb(122, 120, 120);
@@ -41,12 +43,9 @@ li {
 }
 
 
-intro{
-    text-align: center;
-    
-}
 
-.logo {
+
+.logo{
     display: inline-block;
     position: relative;
     width: 70px;
