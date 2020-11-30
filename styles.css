@@ -10,7 +10,6 @@
 
 ul{
     list-style: none;
-<
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -22,11 +21,8 @@ a{
 }
 section{
     width: 100%;
-
     height: 200px;
-
     height: 95vh;
-
     background-image: url(https://coronaservices.com/wp-content/uploads/2018/10/background-section.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,6 +33,9 @@ nav{
 
     display: inline;
     justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+
     
 }
 
@@ -63,8 +62,8 @@ li{
     border-radius: 50%;
 }
 
-    display: flex;
-    justify-content: space-between;
-
+.logoText{
+    display: inline-block;
+    position: relative;
+    padding: 14px 16px; 
 }
-
